@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@import url('https://googleapis.com');
+
+@theme {
+  --font-sans: 'Barlow', sans-serif;
+  --color-bashprime-red: #ab4d1b;
+  --color-bashprime-yellow: #f4b938;
+}
