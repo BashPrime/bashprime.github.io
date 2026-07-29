@@ -6,14 +6,11 @@ export function SocialMediaIcons() {
 
   return (
     <div
-      className="flex flex-row gap-6 items-center"
+      className="flex flex-row gap-6 items-center justify-center"
       data-name="social-media-icons"
     >
       <a href="https://twitch.tv/bashprime" target="_blank">
-        <img
-          src="/icons/socials/twitch.svg"
-          className={cn(size, hover)}
-        />
+        <img src="/icons/socials/twitch.svg" className={cn(size, hover)} />
       </a>
       <a href="https://youtube.com/bashprime" target="_blank">
         <img
@@ -22,10 +19,7 @@ export function SocialMediaIcons() {
         />
       </a>
       <a href="https://bsky.app/profile/bashprime.com" target="_blank">
-        <img
-          src="/icons/socials/bluesky.svg"
-          className={cn(size, hover)}
-        />
+        <img src="/icons/socials/bluesky.svg" className={cn(size, hover)} />
       </a>
     </div>
   );
