@@ -41,10 +41,13 @@ jobs:
           cache: 'pnpm'
       
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
+
+      - name: Lint
+        run: pnpm run lint
 
       - name: Build
-        run: npm run build
+        run: pnpm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
@@ -54,7 +57,7 @@ jobs:
         with:
           # Upload dist folder
           path: './dist'
-          
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
