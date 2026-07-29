@@ -22,12 +22,12 @@ function Index() {
         </h1>
       </div>
       <div
-        className="flex flex-row gap-3 text-xl items-center"
+        className="flex flex-row gap-3 text-xl items-center -mt-4"
         data-name="subheader"
       >
         <p>Metroid Prime Enjoyer</p>
         <p>•</p>
-        <p className="bg-bashprime-red/65 rounded py-1 px-2">he/him</p>
+        <p>he/him</p>
       </div>
       <SocialMediaIcons />
     </div>
