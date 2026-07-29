@@ -13,7 +13,7 @@ function Index() {
         data-name="bashprime-logo-text"
       >
         <img
-          src="./src/assets/icons/bp-logo-transparent.svg"
+          src="/favicon.svg"
           className="w-auto h-24"
         />
         <h1 className="text-7xl font-bold">

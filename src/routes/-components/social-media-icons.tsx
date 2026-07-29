@@ -11,19 +11,19 @@ export function SocialMediaIcons() {
     >
       <a href="https://twitch.tv/bashprime" target="_blank">
         <img
-          src="./src/assets/icons/socials/twitch.svg"
+          src="/icons/socials/twitch.svg"
           className={cn(size, hover)}
         />
       </a>
       <a href="https://youtube.com/bashprime" target="_blank">
         <img
-          src="/src/assets/icons/socials/youtube.png"
+          src="/icons/socials/youtube.png"
           className={cn("w-auto h-16", hover)}
         />
       </a>
       <a href="https://bsky.app/profile/bashprime.com" target="_blank">
         <img
-          src="./src/assets/icons/socials/bluesky.svg"
+          src="/icons/socials/bluesky.svg"
           className={cn(size, hover)}
         />
       </a>
