@@ -7,7 +7,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="flex flex-col items-center" data-name="index">
+    <div className="flex flex-col items-center gap-4" data-name="index">
       <div
         className="flex flex-row items-center gap-4 justify-center"
         data-name="bashprime-logo-text"
@@ -21,10 +21,13 @@ function Index() {
           <span className="text-bashprime-yellow">Prime</span>
         </h1>
       </div>
-      <div className="flex flex-row gap-2 text-xl" data-name="subheader">
+      <div
+        className="flex flex-row gap-3 text-xl items-center"
+        data-name="subheader"
+      >
         <p>Metroid Prime Enjoyer</p>
         <p>•</p>
-        <p className="font-mono">he/him</p>
+        <p className="bg-bashprime-red/65 rounded py-1 px-2">he/him</p>
       </div>
       <SocialMediaIcons />
     </div>
